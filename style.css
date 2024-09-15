@@ -1,0 +1,48 @@
+*{
+    margin:4px;
+}
+body{
+    margin:0;
+    height:99vh;
+    display:flex;
+    flex-direction:column;
+    background:purple;
+    text-align:center;
+    font-size:25px;
+}
+.mainc{
+    display:flex;
+    flex:1;
+}
+header{
+    background-color:blue;
+    padding:2em 0 2em 0;
+}
+.side1{
+    background-color:blue;
+    padding:2em 0 2em 0;
+    flex:1 1 100px;
+}
+main{
+    background-color:blue;
+    padding:2em 0 2em 0;
+    flex:5 5 150px;
+}
+.side2{
+    background-color:blue;
+    padding:2em 0 2em 0;
+    flex:1 1 100px;
+}
+footer{
+    background-color:blue;
+    padding:3em 0 3em 0;
+}
+
+@media all and (max-width:600px){
+    .mainc{
+        flex-direction:column;
+    }
+    main{
+        padding:5em 0 5em 0;
+    }
+}
